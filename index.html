@@ -1,0 +1,2188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#040b1a">
+    <meta name="description" content="KAMAL NOORI · NET ELITE v3 · Ultra Premium Speed Test">
+    <title>KAMAL NOORI · NET ELITE v3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&family=Vazirmatn:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           KAMAL NOORI v3 · DIAMOND LIQUID GLASS · ULTRA PREMIUM
+           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        :root {
+            --bg: #040b1a;
+            --bg2: #060e20;
+            --glass1: rgba(255, 255, 255, .04);
+            --glass2: rgba(255, 255, 255, .07);
+            --glass3: rgba(255, 255, 255, .11);
+            --glass4: rgba(255, 255, 255, .16);
+            --glass5: rgba(255, 255, 255, .22);
+            --glass6: rgba(255, 255, 255, .30);
+            --glassB: rgba(255, 255, 255, .06);
+            --glassB2: rgba(255, 255, 255, .10);
+            --glassB3: rgba(255, 255, 255, .15);
+            --border1: rgba(255, 255, 255, .08);
+            --border2: rgba(255, 255, 255, .14);
+            --border3: rgba(255, 255, 255, .20);
+            --shadow1: rgba(0, 0, 0, .30);
+            --shadow2: rgba(0, 0, 0, .45);
+            --shadowG: rgba(0, 0, 0, .55);
+            --hi: rgba(255, 255, 255, .08);
+            --hi2: rgba(255, 255, 255, .14);
+            --t1: rgba(255, 255, 255, .94);
+            --t2: rgba(255, 255, 255, .62);
+            --t3: rgba(255, 255, 255, .34);
+            --t4: rgba(255, 255, 255, .20);
+            --gold: #f0c030;
+            --gold2: #ffe88a;
+            --gold3: #fef0b8;
+            --goldD: #a07808;
+            --goldG: rgba(240, 192, 48, .25);
+            --cyan: #00e8ff;
+            --cyan2: #5cf0ff;
+            --cyanD: #0090b0;
+            --cyanG: rgba(0, 232, 255, .20);
+            --pur: #b87aff;
+            --purG: rgba(184, 122, 255, .18);
+            --grn: #2de87a;
+            --grnG: rgba(45, 232, 122, .18);
+            --red: #ff5060;
+            --r1: 42px;
+            --r2: 30px;
+            --r3: 22px;
+            --r4: 16px;
+            --r5: 12px;
+            --blurH: 52px;
+            --blurM: 34px;
+            --blurL: 18px;
+            --tr: .40s cubic-bezier(.22, .8, .22, 1);
+            --sp: .50s cubic-bezier(.34, 1.56, .64, 1);
+            --persp: 1200px;
+            --diamond-angle: 0deg;
+        }
+
+        body.lt {
+            --bg: #e2e8f4;
+            --bg2: #d5ddef;
+            --glass1: rgba(255, 255, 255, .45);
+            --glass2: rgba(255, 255, 255, .55);
+            --glass3: rgba(255, 255, 255, .62);
+            --glass4: rgba(255, 255, 255, .70);
+            --glass5: rgba(255, 255, 255, .76);
+            --glass6: rgba(255, 255, 255, .82);
+            --glassB: rgba(255, 255, 255, .38);
+            --glassB2: rgba(255, 255, 255, .50);
+            --glassB3: rgba(255, 255, 255, .58);
+            --border1: rgba(160, 175, 200, .22);
+            --border2: rgba(140, 155, 180, .30);
+            --border3: rgba(120, 135, 160, .38);
+            --shadow1: rgba(100, 115, 150, .12);
+            --shadow2: rgba(80, 95, 130, .18);
+            --shadowG: rgba(60, 75, 110, .25);
+            --hi: rgba(255, 255, 255, .70);
+            --hi2: rgba(255, 255, 255, .82);
+            --t1: rgba(6, 10, 28, .93);
+            --t2: rgba(6, 10, 28, .58);
+            --t3: rgba(6, 10, 28, .32);
+            --t4: rgba(6, 10, 28, .18);
+            --gold: #8a5c00;
+            --gold2: #b07808;
+            --gold3: #6a4400;
+            --goldD: #5a3800;
+            --goldG: rgba(160, 120, 20, .15);
+            --cyan: #0078a0;
+            --cyan2: #0098c8;
+            --cyanD: #005878;
+            --cyanG: rgba(0, 120, 160, .10);
+            --pur: #7848c0;
+            --purG: rgba(120, 72, 192, .10);
+            --grn: #0a8040;
+            --grnG: rgba(10, 128, 64, .10);
+            --red: #c8303a;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--t1);
+            font-family: 'Vazirmatn', 'Inter', -apple-system, sans-serif;
+            min-height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -webkit-tap-highlight-color: transparent;
+            transition: background .6s, color .5s;
+            perspective: var(--persp);
+            cursor: crosshair;
+        }
+
+        /*── AURORA BACKGROUND ──*/
+        .aurora {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.45;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(0, 232, 255, 0.12) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(184, 122, 255, 0.12) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(240, 192, 48, 0.10) 0%, transparent 50%);
+            animation: auroraShift 22s ease-in-out infinite;
+        }
+
+        @keyframes auroraShift {
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1)
+            }
+            25% {
+                transform: translate(3%, -2%) scale(1.02)
+            }
+            50% {
+                transform: translate(-2%, 3%) scale(0.98)
+            }
+            75% {
+                transform: translate(2%, 1%) scale(1.01)
+            }
+        }
+
+        /*── PARTICLES CANVAS ──*/
+        #particles {
+            position: fixed;
+            inset: 0;
+            z-index: 1;
+            pointer-events: none;
+            opacity: 0.8;
+        }
+
+        /*── MOUSE GLOW & TRAIL ──*/
+        .cursor-glow {
+            position: fixed;
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0, 232, 255, 0.10) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 2;
+            transform: translate(-50%, -50%);
+            will-change: left, top;
+        }
+
+        .cursor-trail {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--cyan);
+            pointer-events: none;
+            z-index: 3;
+            box-shadow: 0 0 20px var(--cyan), 0 0 40px var(--cyan);
+            transition: left 0.08s ease-out, top 0.08s ease-out;
+        }
+
+        /*── ORBS ──*/
+        .bg-layer {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            animation: drift 22s ease-in-out infinite;
+        }
+        .orb:nth-child(1) {
+            width: 650px;
+            height: 650px;
+            top: -180px;
+            left: -120px;
+            background: radial-gradient(circle, rgba(0, 232, 255, .10), transparent 68%);
+            animation-delay: 0s;
+        }
+        .orb:nth-child(2) {
+            width: 520px;
+            height: 520px;
+            bottom: -140px;
+            right: -90px;
+            background: radial-gradient(circle, rgba(184, 122, 255, .08), transparent 68%);
+            animation-delay: -8s;
+        }
+        .orb:nth-child(3) {
+            width: 400px;
+            height: 400px;
+            top: 40%;
+            left: 35%;
+            background: radial-gradient(circle, rgba(240, 192, 48, .06), transparent 68%);
+            animation-delay: -14s;
+        }
+        .orb:nth-child(4) {
+            width: 300px;
+            height: 300px;
+            top: 20%;
+            right: 15%;
+            background: radial-gradient(circle, rgba(0, 232, 255, .05), transparent 65%);
+            animation-delay: -5s;
+        }
+        @keyframes drift {
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1)
+            }
+            25% {
+                transform: translate(45px, -35px) scale(1.09)
+            }
+            50% {
+                transform: translate(-30px, 30px) scale(.93)
+            }
+            75% {
+                transform: translate(20px, 15px) scale(1.04)
+            }
+        }
+        body.lt .orb:nth-child(1) {
+            background: radial-gradient(circle, rgba(0, 140, 200, .06), transparent 68%)
+        }
+        body.lt .orb:nth-child(2) {
+            background: radial-gradient(circle, rgba(140, 70, 220, .05), transparent 68%)
+        }
+
+        /*── NOISE TEXTURE ──*/
+        .noise {
+            position: fixed;
+            inset: 0;
+            z-index: 1;
+            pointer-events: none;
+            opacity: .018;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.78' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-size: 180px;
+        }
+
+        /*── LIGHT RAYS ──*/
+        .light-rays {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            opacity: .025;
+            background:
+                conic-gradient(from 30deg at 60% 40%, transparent, rgba(0, 232, 255, .4), transparent 8deg, transparent 20deg, rgba(240, 192, 48, .3), transparent 28deg, transparent 40deg, rgba(184, 122, 255, .3), transparent 48deg, transparent),
+                conic-gradient(from 180deg at 35% 55%, transparent, rgba(255, 255, 255, .2), transparent 10deg, transparent);
+            animation: rayShift 30s linear infinite;
+        }
+        @keyframes rayShift {
+            to {
+                transform: rotate(360deg)
+            }
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━ SPLASH SCREEN ━━━━━━━━━━━━━━━━━━━━━━*/
+        #splash {
+            position: fixed;
+            inset: 0;
+            z-index: 5000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: var(--bg);
+            transition: opacity .9s cubic-bezier(.4, 0, .2, 1), visibility .9s;
+            will-change: opacity;
+        }
+        #splash.out {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        .sp-crystal-wrap {
+            position: relative;
+            width: 220px;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: crystalEnter 1.1s cubic-bezier(.34, 1.56, .64, 1) both;
+            transform-style: preserve-3d;
+        }
+        @keyframes crystalEnter {
+            from {
+                opacity: 0;
+                transform: scale(.35) rotateX(40deg) rotateY(-30deg) rotateZ(-15deg)
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) rotateX(0) rotateY(0) rotateZ(0)
+            }
+        }
+
+        .sp-halo {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            animation: haloSpin 7s linear infinite;
+        }
+        .sp-halo:nth-child(1) {
+            border: 1.5px solid rgba(0, 232, 255, .30);
+            animation-duration: 7s;
+        }
+        .sp-halo:nth-child(2) {
+            inset: 16px;
+            border: 1px dashed rgba(240, 192, 48, .22);
+            animation-duration: 10s;
+            animation-direction: reverse;
+        }
+        .sp-halo:nth-child(3) {
+            inset: 30px;
+            border: 1px solid rgba(184, 122, 255, .18);
+            animation-duration: 5.5s;
+        }
+        .sp-halo:nth-child(4) {
+            inset: 42px;
+            border: .5px solid rgba(255, 255, 255, .10);
+            animation-duration: 8.5s;
+            animation-direction: reverse;
+        }
+        @keyframes haloSpin {
+            to {
+                transform: rotate(360deg)
+            }
+        }
+
+        .sp-diamond-svg {
+            position: relative;
+            z-index: 2;
+            filter: drop-shadow(0 0 30px rgba(0, 232, 255, .45)) drop-shadow(0 0 60px rgba(240, 192, 48, .28)) drop-shadow(0 0 100px rgba(184, 122, 255, .18));
+            animation: diamondGlow 2.8s ease-in-out infinite;
+        }
+        @keyframes diamondGlow {
+            0%,
+            100% {
+                filter: drop-shadow(0 0 30px rgba(0, 232, 255, .45)) drop-shadow(0 0 60px rgba(240, 192, 48, .28)) drop-shadow(0 0 100px rgba(184, 122, 255, .18))
+            }
+            40% {
+                filter: drop-shadow(0 0 50px rgba(0, 232, 255, .75)) drop-shadow(0 0 80px rgba(240, 192, 48, .50)) drop-shadow(0 0 140px rgba(184, 122, 255, .35))
+            }
+            70% {
+                filter: drop-shadow(0 0 38px rgba(0, 232, 255, .55)) drop-shadow(0 0 70px rgba(240, 192, 48, .38)) drop-shadow(0 0 120px rgba(184, 122, 255, .25))
+            }
+        }
+
+        .sp-spark {
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--gold2);
+            box-shadow: 0 0 14px var(--gold), 0 0 30px var(--goldG);
+            top: 50%;
+            left: 50%;
+            margin: -3.5px;
+            transform-origin: 0 0;
+        }
+        .sp-spark:nth-child(1) {
+            animation: sparkOrbit1 3.2s linear infinite;
+        }
+        .sp-spark:nth-child(2) {
+            animation: sparkOrbit2 4.8s linear infinite;
+            background: var(--cyan2);
+            box-shadow: 0 0 14px var(--cyan), 0 0 30px var(--cyanG);
+        }
+        .sp-spark:nth-child(3) {
+            animation: sparkOrbit3 6.4s linear infinite;
+            background: var(--pur);
+            box-shadow: 0 0 12px var(--pur), 0 0 26px var(--purG);
+        }
+        @keyframes sparkOrbit1 {
+            from {
+                transform: rotate(0deg) translateX(105px)
+            }
+            to {
+                transform: rotate(360deg) translateX(105px)
+            }
+        }
+        @keyframes sparkOrbit2 {
+            from {
+                transform: rotate(130deg) translateX(90px)
+            }
+            to {
+                transform: rotate(490deg) translateX(90px)
+            }
+        }
+        @keyframes sparkOrbit3 {
+            from {
+                transform: rotate(260deg) translateX(75px)
+            }
+            to {
+                transform: rotate(620deg) translateX(75px)
+            }
+        }
+
+        .sp-name {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: clamp(24px, 6.5vw, 40px);
+            font-weight: 900;
+            letter-spacing: 7px;
+            background: linear-gradient(160deg, #fffef5 0%, #fef0b8 18%, #f0c030 38%, #ffe88a 55%, #f0c030 72%, #d09810 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin: 26px 0 10px;
+            animation: nameSlide .85s cubic-bezier(.22, .8, .22, 1) .7s both;
+            filter: drop-shadow(0 3px 16px rgba(200, 150, 20, .35));
+            text-align: center;
+        }
+        @keyframes nameSlide {
+            from {
+                opacity: 0;
+                transform: translateY(22px);
+                letter-spacing: 14px
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+                letter-spacing: 7px
+            }
+        }
+        .sp-tag {
+            font-size: 10.5px;
+            letter-spacing: 5px;
+            color: var(--t2);
+            font-weight: 400;
+            animation: nameSlide .85s cubic-bezier(.22, .8, .22, 1) 1.0s both;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .sp-divider {
+            width: 140px;
+            height: 1px;
+            margin: 18px auto;
+            background: linear-gradient(90deg, transparent, var(--gold), var(--cyan), var(--gold), transparent);
+            animation: nameSlide .85s ease 1.2s both;
+        }
+
+        .sp-arc-wrap {
+            position: relative;
+            width: 70px;
+            height: 70px;
+            margin: 6px auto 0;
+            animation: nameSlide .85s ease 1.35s both;
+        }
+        .sp-arc-svg {
+            transform: rotate(-90deg);
+        }
+        .sp-arc-bg {
+            fill: none;
+            stroke: var(--border1);
+            stroke-width: 3;
+        }
+        .sp-arc-fill {
+            fill: none;
+            stroke: url(#arcGradSplash);
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-dasharray: 200;
+            stroke-dashoffset: 200;
+            animation: arcFill 9.2s linear 1.5s forwards;
+        }
+        @keyframes arcFill {
+            to {
+                stroke-dashoffset: 0
+            }
+        }
+        .sp-arc-pct {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Orbitron', monospace;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--cyan2);
+            letter-spacing: 1px;
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━ SETTINGS OVERLAY ━━━━━━━━━━━━━━━━━━━━━━*/
+        #sov {
+            position: fixed;
+            inset: 0;
+            z-index: 4000;
+            background: rgba(0, 0, 0, .58);
+            backdrop-filter: blur(32px);
+            -webkit-backdrop-filter: blur(32px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .35s, visibility .35s;
+        }
+        body.lt #sov {
+            background: rgba(160, 175, 200, .50)
+        }
+        #sov.open {
+            opacity: 1;
+            visibility: visible
+        }
+
+        .s-panel {
+            background: var(--glass2);
+            backdrop-filter: blur(60px);
+            -webkit-backdrop-filter: blur(60px);
+            border: 1.5px solid var(--border2);
+            border-radius: 44px;
+            padding: 26px 22px 22px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 36px 90px var(--shadowG), inset 0 1px 0 var(--hi);
+            animation: panelIn .42s cubic-bezier(.22, .8, .22, 1);
+        }
+        @keyframes panelIn {
+            from {
+                opacity: 0;
+                transform: scale(.85) translateY(24px)
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0)
+            }
+        }
+        .s-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .s-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--gold);
+            letter-spacing: 2px;
+        }
+        .s-close {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: var(--glassB);
+            border: 1px solid var(--border2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 14px;
+            color: var(--t2);
+            transition: all var(--sp);
+        }
+        .s-close:hover {
+            background: rgba(255, 80, 96, .18);
+            border-color: var(--red);
+            color: var(--red);
+            transform: rotate(90deg) scale(1.12);
+        }
+        .s-sec {
+            margin-bottom: 16px;
+        }
+        .s-lbl {
+            font-size: 9px;
+            letter-spacing: 3px;
+            color: var(--t3);
+            font-weight: 500;
+            margin-bottom: 9px;
+            text-transform: uppercase;
+        }
+        .s-row {
+            display: flex;
+            gap: 7px;
+            flex-wrap: wrap;
+        }
+        .s-btn {
+            flex: 1;
+            min-width: 60px;
+            padding: 11px 6px;
+            background: var(--glassB);
+            border: 1px solid var(--border1);
+            border-radius: 28px;
+            cursor: pointer;
+            font-size: 11.5px;
+            font-weight: 500;
+            color: var(--t2);
+            font-family: 'Vazirmatn', sans-serif;
+            text-align: center;
+            letter-spacing: .5px;
+            transition: all var(--sp);
+        }
+        .s-btn:hover {
+            background: var(--glass3);
+            border-color: var(--border3);
+            color: var(--t1);
+            transform: translateY(-2px);
+        }
+        .s-btn.on {
+            background: var(--goldG) !important;
+            border-color: var(--gold) !important;
+            color: var(--gold) !important;
+            font-weight: 700;
+            box-shadow: 0 0 20px rgba(240, 192, 48, .16);
+        }
+        .s-clock {
+            background: var(--glassB);
+            border: 1px solid var(--border1);
+            border-radius: 24px;
+            padding: 14px;
+            text-align: center;
+            margin: 14px 0 10px;
+        }
+        .s-time {
+            font-family: 'Orbitron', monospace;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: var(--cyan2);
+        }
+        .s-date {
+            font-size: 10.5px;
+            color: var(--t2);
+            margin-top: 4px;
+            letter-spacing: .5px;
+        }
+        .s-ver {
+            text-align: center;
+            font-size: 9px;
+            color: var(--t3);
+            letter-spacing: 2px;
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━ MAIN SHELL ━━━━━━━━━━━━━━━━━━━━━━*/
+        .shell {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            max-width: 800px;
+            background: var(--glass1);
+            backdrop-filter: blur(var(--blurH));
+            -webkit-backdrop-filter: blur(var(--blurH));
+            border: 1.5px solid var(--border2);
+            border-radius: var(--r1);
+            padding: 24px 18px 20px;
+            box-shadow: 0 8px 55px var(--shadow1), 0 32px 85px var(--shadowG), inset 0 1px 0 var(--hi2);
+            animation: shellIn .75s cubic-bezier(.22, .8, .22, 1) both;
+            transform-style: preserve-3d;
+        }
+        @keyframes shellIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px) scale(.90) rotateX(8deg)
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1) rotateX(0)
+            }
+        }
+        .shell::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 8%;
+            right: 8%;
+            height: 1.5px;
+            background: linear-gradient(90deg, transparent, var(--border3), var(--hi2), var(--border3), transparent);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 2;
+        }
+        .shell::after {
+            content: '';
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 22px;
+            height: 22px;
+            border-top: 1.5px solid rgba(240, 192, 48, .35);
+            border-right: 1.5px solid rgba(240, 192, 48, .35);
+            border-radius: 0 7px 0 0;
+            pointer-events: none;
+            z-index: 2;
+        }
+        .shell-corner-bl {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            width: 22px;
+            height: 22px;
+            border-bottom: 1.5px solid rgba(0, 232, 255, .30);
+            border-left: 1.5px solid rgba(0, 232, 255, .30);
+            border-radius: 0 0 0 7px;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        /*── TOPBAR ──*/
+        .topbar {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 6px;
+            position: relative;
+            z-index: 3;
+        }
+        .gear {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--glassB);
+            border: 1px solid var(--border2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 17px;
+            color: var(--t2);
+            box-shadow: 0 4px 16px var(--shadow1), inset 0 1px 0 rgba(255, 255, 255, .20);
+            transition: all var(--sp);
+        }
+        .gear:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+            background: var(--goldG);
+            transform: rotate(24deg) scale(1.10);
+            box-shadow: 0 6px 24px var(--goldG), inset 0 1px 0 rgba(255, 255, 255, .25);
+        }
+        .gear:active {
+            transform: scale(.88);
+        }
+
+        /*── HEADER ──*/
+        .hdr {
+            text-align: center;
+            margin-bottom: 14px;
+            position: relative;
+            z-index: 3;
+        }
+        .logo-sm {
+            display: inline-block;
+            margin-bottom: 3px;
+            animation: floatY 3.8s ease-in-out infinite;
+            filter: drop-shadow(0 0 18px rgba(0, 232, 255, .25));
+        }
+        @keyframes floatY {
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+            45% {
+                transform: translateY(-9px)
+            }
+            70% {
+                transform: translateY(-3px)
+            }
+        }
+        .name-hdr {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: clamp(20px, 5vw, 34px);
+            font-weight: 900;
+            letter-spacing: 5px;
+            background: linear-gradient(160deg, #fffef8 0%, #fef0b8 16%, #f0c030 36%, #ffe88a 54%, #f0c030 70%, #d09810 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin: 3px 0 8px;
+            filter: drop-shadow(0 2px 8px rgba(200, 148, 16, .30));
+        }
+        .elite-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            background: var(--glassB);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border2);
+            border-radius: 40px;
+            padding: 7px 22px;
+            font-size: 10px;
+            letter-spacing: 3px;
+            color: var(--gold);
+            font-weight: 600;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .18), 0 0 35px rgba(240, 192, 48, .05);
+        }
+        .ep-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--gold);
+            animation: dotPulse 2s ease-in-out infinite;
+        }
+        @keyframes dotPulse {
+            0%,
+            100% {
+                box-shadow: 0 0 7px rgba(240, 192, 48, .5)
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(240, 192, 48, .9), 0 0 36px rgba(240, 192, 48, .45)
+            }
+        }
+
+        /*── SPEED CARDS ──*/
+        .spd-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 16px 0 12px;
+        }
+        .spd-card {
+            position: relative;
+            overflow: hidden;
+            background: var(--glassB);
+            backdrop-filter: blur(var(--blurM));
+            -webkit-backdrop-filter: blur(var(--blurM));
+            border: 1.5px solid var(--border1);
+            border-radius: var(--r2);
+            padding: 18px 10px 14px;
+            text-align: center;
+            box-shadow: 0 6px 32px var(--shadow1), inset 0 1.5px 0 var(--hi);
+            transition: all var(--tr);
+            z-index: 1;
+            transform-style: preserve-3d;
+        }
+        .spd-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 10%;
+            right: 10%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border3), transparent);
+            pointer-events: none;
+            z-index: 2;
+        }
+        .spd-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse at 50% 0%, rgba(255, 255, 255, .06), transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+        }
+        .spd-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 18px 55px var(--shadow2), 0 0 30px rgba(0, 232, 255, 0.15), inset 0 1.5px 0 var(--hi2);
+            border-color: var(--cyan);
+        }
+        .spd-card .dc {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            pointer-events: none;
+            z-index: 2;
+        }
+        .spd-card .dc.tl {
+            top: 8px;
+            left: 8px;
+            border-top: 1px solid rgba(0, 232, 255, .28);
+            border-left: 1px solid rgba(0, 232, 255, .28);
+            border-radius: 3px 0 0 0;
+        }
+        .spd-card .dc.br {
+            bottom: 8px;
+            right: 8px;
+            border-bottom: 1px solid rgba(0, 232, 255, .28);
+            border-right: 1px solid rgba(0, 232, 255, .28);
+            border-radius: 0 0 3px 0;
+        }
+
+        .spd-card.act {
+            border-color: var(--cyan) !important;
+            animation: cPulse 1s ease-in-out infinite;
+            box-shadow: 0 0 20px rgba(0, 232, 255, 0.25), 0 8px 48px rgba(0, 232, 255, .16), inset 0 1.5px 0 var(--hi2) !important;
+        }
+        @keyframes cPulse {
+            0%,
+            100% {
+                box-shadow: 0 0 15px rgba(0, 232, 255, .18), 0 8px 40px rgba(0, 232, 255, .10), inset 0 1.5px 0 var(--hi)
+            }
+            50% {
+                box-shadow: 0 0 35px rgba(0, 232, 255, .5), 0 8px 60px rgba(0, 232, 255, .28), inset 0 1.5px 0 var(--hi2)
+            }
+        }
+        .spin-r {
+            position: absolute;
+            inset: 6px;
+            border-radius: inherit;
+            border: 1.5px dashed rgba(0, 232, 255, .16);
+            opacity: 0;
+            transition: opacity .5s;
+            z-index: 0;
+            pointer-events: none;
+        }
+        .spd-card.act .spin-r {
+            opacity: 1;
+            animation: spinR 4s linear infinite;
+        }
+        @keyframes spinR {
+            to {
+                transform: rotate(360deg)
+            }
+        }
+
+        .sc-lbl {
+            font-size: 9.5px;
+            letter-spacing: 3px;
+            color: var(--t2);
+            font-weight: 500;
+            margin-bottom: 8px;
+            position: relative;
+            z-index: 3;
+        }
+        .gauge-wrap {
+            position: relative;
+            z-index: 3;
+            width: 85%;
+            margin: 0 auto 7px;
+            height: 3px;
+            background: var(--glassB);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .gauge-fill {
+            height: 100%;
+            border-radius: 10px;
+            width: 0%;
+            background: linear-gradient(90deg, var(--cyan), var(--gold), var(--pur));
+            transition: width .35s ease;
+            box-shadow: 0 0 10px rgba(0, 232, 255, .5);
+        }
+        .sc-num {
+            font-family: 'Orbitron', monospace;
+            font-size: clamp(30px, 7vw, 54px);
+            font-weight: 900;
+            line-height: 1;
+            color: var(--t1);
+            letter-spacing: 1px;
+            position: relative;
+            z-index: 3;
+            transition: all .06s ease-out;
+            text-shadow: 0 0 30px rgba(0, 232, 255, .18);
+        }
+        .sc-unit {
+            font-size: 11px;
+            color: var(--cyan2);
+            font-weight: 600;
+            letter-spacing: 2px;
+            position: relative;
+            z-index: 3;
+            margin-top: 2px;
+        }
+        .sc-st {
+            font-size: 9px;
+            color: var(--t3);
+            margin-top: 6px;
+            letter-spacing: 1.5px;
+            position: relative;
+            z-index: 3;
+        }
+
+        /*── LIVE GRAPHS ──*/
+        .graph-wrap {
+            width: 100%;
+            height: 65px;
+            margin-top: 10px;
+            position: relative;
+            z-index: 3;
+            border-radius: 8px;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.15);
+        }
+        .graph-canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        /*── DATA USAGE BADGE ──*/
+        .data-usage-row {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin: 6px 0 10px;
+            flex-wrap: wrap;
+        }
+        .data-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--glassB);
+            border: 1px solid var(--border1);
+            border-radius: 24px;
+            padding: 6px 13px;
+            font-size: 9.5px;
+            color: var(--t2);
+            letter-spacing: 1.5px;
+            font-family: 'Share Tech Mono', monospace;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+        .data-badge .db-val {
+            color: var(--cyan2);
+            font-weight: 600;
+            font-size: 10.5px;
+        }
+
+        /*── INFO GRID ──*/
+        .inf-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        .inf-card {
+            position: relative;
+            overflow: hidden;
+            background: var(--glassB);
+            backdrop-filter: blur(var(--blurL));
+            -webkit-backdrop-filter: blur(var(--blurL));
+            border: 1px solid var(--border1);
+            border-radius: var(--r3);
+            padding: 12px 14px;
+            box-shadow: 0 3px 14px var(--shadow1), inset 0 1px 0 rgba(255, 255, 255, .12);
+            transition: all var(--tr);
+        }
+        .inf-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border2), transparent);
+            pointer-events: none;
+        }
+        .inf-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 28px var(--shadow2), inset 0 1px 0 var(--hi);
+        }
+        .ic-lbl {
+            font-size: 8.5px;
+            letter-spacing: 2.5px;
+            color: var(--t3);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .ic-val {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--t1);
+            word-break: break-word;
+            line-height: 1.35;
+        }
+        .ic-val.mono {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 11.5px;
+            color: var(--cyan2);
+            letter-spacing: .5px;
+        }
+        .ic-val.small {
+            font-size: 11px;
+        }
+
+        /*── WIFI ROW ──*/
+        .wf-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--glassB);
+            backdrop-filter: blur(var(--blurL));
+            -webkit-backdrop-filter: blur(var(--blurL));
+            border: 1px solid var(--border1);
+            border-radius: 30px;
+            padding: 10px 16px;
+            margin-bottom: 10px;
+            gap: 8px;
+            box-shadow: 0 3px 12px var(--shadow1), inset 0 1px 0 rgba(255, 255, 255, .12);
+        }
+        .wf-ip {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 12px;
+            color: var(--cyan2);
+        }
+        .wf-btn {
+            background: var(--glassB);
+            border: 1px solid var(--border2);
+            border-radius: 22px;
+            padding: 7px 14px;
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--gold);
+            cursor: pointer;
+            letter-spacing: 1px;
+            font-family: inherit;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14);
+            transition: all var(--sp);
+            white-space: nowrap;
+        }
+        .wf-btn:hover {
+            background: var(--goldG);
+            border-color: var(--gold);
+            transform: scale(1.06);
+        }
+        .wf-btn:active {
+            transform: scale(.93);
+        }
+
+        /*── WHATSAPP ──*/
+        .wa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: var(--glassB);
+            backdrop-filter: blur(var(--blurL));
+            -webkit-backdrop-filter: blur(var(--blurL));
+            border: 1.5px solid rgba(45, 232, 122, .24);
+            border-radius: 40px;
+            padding: 11px 18px;
+            text-decoration: none;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 16px var(--shadow1), inset 0 1px 0 rgba(255, 255, 255, .12);
+            transition: all var(--tr);
+            cursor: pointer;
+        }
+        .wa:hover {
+            border-color: var(--grn);
+            background: var(--grnG);
+            box-shadow: 0 8px 30px rgba(45, 232, 122, .10), inset 0 1px 0 rgba(255, 255, 255, .18);
+            transform: translateY(-2px);
+        }
+        .wa-n {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--grn);
+            letter-spacing: 1px;
+        }
+        .wa-f {
+            font-size: 10px;
+            color: var(--t2);
+            letter-spacing: .5px;
+        }
+
+        /*── MAIN BUTTON ──*/
+        .btn {
+            width: 100%;
+            padding: 15px 20px;
+            background: linear-gradient(115deg, rgba(240, 192, 48, .88), rgba(255, 232, 140, .94), rgba(240, 192, 48, .88));
+            border: none;
+            border-radius: 44px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #0c0800;
+            cursor: pointer;
+            box-shadow: 0 8px 30px rgba(180, 135, 18, .28), inset 0 1.5px 0 rgba(255, 255, 255, .50);
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 10px;
+            transition: all var(--sp);
+            z-index: 3;
+        }
+        .btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            background: linear-gradient(180deg, rgba(255, 255, 255, .26) 0%, transparent 55%);
+            pointer-events: none;
+        }
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .24), transparent);
+            transform: skewX(-20deg);
+            transition: left 0s;
+            pointer-events: none;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 42px rgba(200, 150, 20, .42), inset 0 1.5px 0 rgba(255, 255, 255, .50);
+        }
+        .btn:hover::after {
+            left: 160%;
+            transition: left .70s ease;
+        }
+        .btn:active {
+            transform: scale(.95);
+            transition: all .07s;
+        }
+        .btn:disabled {
+            opacity: .48;
+            cursor: not-allowed;
+            filter: grayscale(15%);
+            transform: none;
+        }
+
+        /*── ACTION ROW ──*/
+        .action-row {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        .icon-btn {
+            flex: 1;
+            background: var(--glassB);
+            border: 1px solid var(--border1);
+            border-radius: 28px;
+            padding: 10px;
+            color: var(--t2);
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all var(--sp);
+            font-family: 'Vazirmatn', sans-serif;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .icon-btn:hover {
+            background: var(--glass3);
+            border-color: var(--gold);
+            color: var(--gold);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /*── TIMER BAR ──*/
+        .timer-bar-wrap {
+            width: 100%;
+            height: 3px;
+            background: var(--glassB);
+            border-radius: 10px;
+            margin-bottom: 8px;
+            overflow: hidden;
+            display: none;
+        }
+        .timer-bar-fill {
+            height: 100%;
+            border-radius: 10px;
+            width: 0%;
+            background: linear-gradient(90deg, var(--cyan), var(--gold), var(--pur), var(--cyan));
+            background-size: 250% 100%;
+            animation: shimBar .8s linear infinite;
+            transition: width .5s ease;
+        }
+        @keyframes shimBar {
+            0% {
+                background-position: 0% 50%
+            }
+            100% {
+                background-position: 250% 50%
+            }
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 9px;
+            letter-spacing: 2.5px;
+            color: var(--t3);
+            position: relative;
+            z-index: 3;
+        }
+
+        /*── RESPONSIVE ──*/
+        @media(max-width:500px) {
+            .shell {
+                padding: 14px 8px 10px;
+                border-radius: 32px;
+            }
+            .spd-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            .inf-grid {
+                grid-template-columns: 1fr;
+                gap: 6px;
+            }
+            .sc-num {
+                font-size: clamp(26px, 7vw, 44px);
+            }
+            .sp-crystal-wrap {
+                width: 170px;
+                height: 170px;
+            }
+            .name-hdr {
+                font-size: clamp(18px, 4.5vw, 28px);
+            }
+            .data-usage-row {
+                gap: 5px;
+            }
+            .data-badge {
+                padding: 5px 10px;
+                font-size: 8.5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Aurora -->
+    <div class="aurora"></div>
+    <!-- Particles Canvas -->
+    <canvas id="particles"></canvas>
+    <!-- Background orbs (original) -->
+    <div class="bg-layer">
+        <div class="orb"></div><div class="orb"></div><div class="orb"></div><div class="orb"></div>
+    </div>
+    <div class="noise"></div>
+    <div class="light-rays"></div>
+    <!-- Mouse Effects -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div class="cursor-trail" id="cursorTrail"></div>
+
+    <!--━━━━━━━━━━━━━━━━━━━━━━ SPLASH SCREEN ━━━━━━━━━━━━━━━━━━━━━━-->
+    <div id="splash">
+        <div class="sp-crystal-wrap">
+            <div class="sp-halo"></div>
+            <div class="sp-halo"></div>
+            <div class="sp-halo"></div>
+            <div class="sp-halo"></div>
+            <div class="sp-spark"></div>
+            <div class="sp-spark"></div>
+            <div class="sp-spark"></div>
+            <svg class="sp-diamond-svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="dGradMain" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#fffef8"/>
+                        <stop offset="25%" stop-color="#fef0b8"/>
+                        <stop offset="45%" stop-color="#f0c030"/>
+                        <stop offset="62%" stop-color="#ffe88a"/>
+                        <stop offset="80%" stop-color="#00e8ff"/>
+                        <stop offset="100%" stop-color="#b87aff"/>
+                    </linearGradient>
+                    <linearGradient id="dGradFacet1" x1="0" y1="0" x2="50" y2="50">
+                        <stop offset="0%" stop-color="rgba(255,255,255,.85)"/>
+                        <stop offset="100%" stop-color="rgba(255,255,255,.05)"/>
+                    </linearGradient>
+                    <linearGradient id="dGradFacet2" x1="50" y1="0" x2="100" y2="50">
+                        <stop offset="0%" stop-color="rgba(255,255,255,.55)"/>
+                        <stop offset="100%" stop-color="rgba(255,255,255,.02)"/>
+                    </linearGradient>
+                    <filter id="dGlow">
+                        <feGaussianBlur stdDeviation="3.5" result="blur"/>
+                        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                    </filter>
+                    <filter id="dSpark">
+                        <feGaussianBlur stdDeviation="1.5" result="b"/>
+                        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+                    </filter>
+                </defs>
+                <polygon points="50,3 94,36 50,97 6,36" fill="url(#dGradMain)" filter="url(#dGlow)" opacity=".94"/>
+                <polygon points="50,3 94,36 50,42" fill="url(#dGradFacet1)" opacity=".75"/>
+                <polygon points="50,3 6,36 50,42" fill="url(#dGradFacet2)" opacity=".55"/>
+                <polygon points="6,36 50,42 50,97" fill="rgba(0,0,0,.18)" opacity=".60"/>
+                <polygon points="94,36 50,42 50,97" fill="rgba(0,0,0,.30)" opacity=".55"/>
+                <line x1="50" y1="3" x2="50" y2="42" stroke="rgba(255,255,255,.65)" stroke-width="1.5" filter="url(#dSpark)"/>
+                <circle cx="50" cy="42" r="3.5" fill="white" opacity=".90" filter="url(#dSpark)"/>
+                <circle cx="28" cy="36" r="1.2" fill="white" opacity=".7"/>
+                <circle cx="72" cy="36" r="1.2" fill="white" opacity=".7"/>
+                <circle cx="50" cy="70" r="1" fill="white" opacity=".5"/>
+            </svg>
+        </div>
+        <div class="sp-name">KAMAL NOORI</div>
+        <div class="sp-tag" id="spSub">✦ NET ELITE · DIAMOND EDITION ✦</div>
+        <div class="sp-divider"></div>
+        <div class="sp-arc-wrap">
+            <svg class="sp-arc-svg" width="70" height="70" viewBox="0 0 70 70">
+                <defs>
+                    <linearGradient id="arcGradSplash" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#00e8ff"/>
+                        <stop offset="35%" stop-color="#f0c030"/>
+                        <stop offset="65%" stop-color="#ff88cc"/>
+                        <stop offset="100%" stop-color="#b87aff"/>
+                    </linearGradient>
+                </defs>
+                <circle class="sp-arc-bg" cx="35" cy="35" r="30"/>
+                <circle class="sp-arc-fill" cx="35" cy="35" r="30"/>
+            </svg>
+            <div class="sp-arc-pct" id="spPct">0%</div>
+        </div>
+    </div>
+
+    <!--━━━━━━━━━━━━━━━━━━━━━━ SETTINGS OVERLAY ━━━━━━━━━━━━━━━━━━━━━━-->
+    <div id="sov">
+        <div class="s-panel">
+            <div class="s-head">
+                <span class="s-title">⚙️ <span data-i="settings">SETTINGS</span></span>
+                <button class="s-close" id="sClose">✕</button>
+            </div>
+            <div class="s-sec">
+                <div class="s-lbl">🌐 LANGUAGE / ژبه / زبان</div>
+                <div class="s-row" id="langRow">
+                    <button class="s-btn" data-lang="ps">پښتو</button>
+                    <button class="s-btn" data-lang="fa">فارسی</button>
+                    <button class="s-btn on" data-lang="en">English</button>
+                </div>
+            </div>
+            <div class="s-sec">
+                <div class="s-lbl" data-i="theme_lbl">🎨 THEME</div>
+                <div class="s-row" id="themeRow">
+                    <button class="s-btn" data-theme="light">☀️ <span data-i="light">Light</span></button>
+                    <button class="s-btn on" data-theme="dark">🌙 <span data-i="dark">Dark</span></button>
+                </div>
+            </div>
+            <div class="s-clock">
+                <div class="s-time" id="sTime">--:--:--</div>
+                <div class="s-date" id="sDate">---</div>
+            </div>
+            <div class="s-ver">v3 Diamond Edition · Kamal Noori</div>
+        </div>
+    </div>
+
+    <!--━━━━━━━━━━━━━━━━━━━━━━ MAIN APP ━━━━━━━━━━━━━━━━━━━━━━-->
+    <div class="shell" id="mainShell">
+        <div class="shell-corner-bl"></div>
+        <div class="topbar">
+            <button class="gear" id="gearBtn">⚙️</button>
+        </div>
+
+        <div class="hdr">
+            <div class="logo-sm">
+                <svg width="46" height="46" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="sdg" x1="0" y1="0" x2="100" y2="100">
+                            <stop offset="0%" stop-color="#fffef8"/><stop offset="38%" stop-color="#f0c030"/>
+                            <stop offset="65%" stop-color="#00e8ff"/><stop offset="100%" stop-color="#b87aff"/>
+                        </linearGradient>
+                        <filter id="sg"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                    </defs>
+                    <polygon points="50,3 94,36 50,97 6,36" fill="url(#sdg)" filter="url(#sg)" opacity=".94"/>
+                    <polygon points="50,3 94,36 50,42" fill="rgba(255,255,255,.24)"/>
+                    <polygon points="50,3 6,36 50,42" fill="rgba(255,255,255,.10)"/>
+                    <line x1="50" y1="3" x2="50" y2="42" stroke="rgba(255,255,255,.48)" stroke-width="1.5"/>
+                    <circle cx="50" cy="42" r="3" fill="white" opacity=".82"/>
+                </svg>
+            </div>
+            <div class="name-hdr">KAMAL NOORI</div>
+            <div class="elite-pill">
+                <span class="ep-dot"></span>
+                <span>✦ NET ELITE ✦</span>
+                <span class="ep-dot"></span>
+            </div>
+        </div>
+
+        <!-- Speed Cards with live graphs -->
+        <div class="spd-grid">
+            <div class="spd-card" id="dlCard">
+                <div class="spin-r"></div>
+                <div class="dc tl"></div><div class="dc br"></div>
+                <div class="sc-lbl" data-i="download">⬇ DOWNLOAD</div>
+                <div class="gauge-wrap"><div class="gauge-fill" id="dlGauge"></div></div>
+                <div class="sc-num" id="dlNum">0.0</div>
+                <div class="sc-unit">Mbps</div>
+                <div class="graph-wrap"><canvas class="graph-canvas" id="dlGraph"></canvas></div>
+                <div class="sc-st" id="dlSt">--</div>
+            </div>
+            <div class="spd-card" id="ulCard">
+                <div class="spin-r"></div>
+                <div class="dc tl"></div><div class="dc br"></div>
+                <div class="sc-lbl" data-i="upload">⬆ UPLOAD</div>
+                <div class="gauge-wrap"><div class="gauge-fill" id="ulGauge"></div></div>
+                <div class="sc-num" id="ulNum">0.0</div>
+                <div class="sc-unit">Mbps</div>
+                <div class="graph-wrap"><canvas class="graph-canvas" id="ulGraph"></canvas></div>
+                <div class="sc-st" id="ulSt">--</div>
+            </div>
+        </div>
+
+        <!-- Data Usage Badges -->
+        <div class="data-usage-row">
+            <div class="data-badge">📥 DL: <span class="db-val" id="dataDL">0 MB</span></div>
+            <div class="data-badge">📤 UL: <span class="db-val" id="dataUL">0 MB</span></div>
+            <div class="data-badge">⏱️ <span class="db-val" id="dataTime">0s</span></div>
+        </div>
+
+        <!-- Info Grid -->
+        <div class="inf-grid">
+            <div class="inf-card"><div class="ic-lbl" data-i="pub_ip">🌐 PUBLIC IP</div><div class="ic-val mono" id="ipVal">--</div></div>
+            <div class="inf-card"><div class="ic-lbl" data-i="location">📍 LOCATION</div><div class="ic-val small" id="geoVal">--</div></div>
+            <div class="inf-card"><div class="ic-lbl" data-i="isp">🏢 ISP</div><div class="ic-val small" id="ispVal">--</div></div>
+            <div class="inf-card"><div class="ic-lbl" data-i="ping">⚡ PING (ms)</div><div class="ic-val mono" id="pingVal">--</div></div>
+            <div class="inf-card"><div class="ic-lbl" data-i="connection">📶 CONNECTION</div><div class="ic-val" id="connVal">--</div></div>
+            <div class="inf-card"><div class="ic-lbl" data-i="jitter">〰️ JITTER (ms)</div><div class="ic-val mono" id="jitterVal">--</div></div>
+        </div>
+
+        <!-- WiFi Row -->
+        <div class="wf-row">
+            <span class="wf-ip" id="wfIp">📡 ...</span>
+            <button class="wf-btn" id="wfBtn" data-i="wifi_btn">⚙️ WiFi</button>
+        </div>
+
+        <!-- WhatsApp -->
+        <a class="wa" href="https://wa.me/93772647603" target="_blank" rel="noopener">
+            <span style="font-size:20px">💬</span>
+            <span class="wa-n">+93 772 647 603</span>
+            <span class="wa-f">🇦🇫 Afghanistan</span>
+        </a>
+
+        <!-- Timer Bar -->
+        <div class="timer-bar-wrap" id="timerWrap"><div class="timer-bar-fill" id="timerFill"></div></div>
+
+        <!-- Start Button -->
+        <button class="btn" id="startBtn" data-i="start">▶ START TEST</button>
+
+        <!-- Action Buttons -->
+        <div class="action-row">
+            <button class="icon-btn" id="shareBtn">📤 <span data-i="share">Share</span></button>
+            <button class="icon-btn" id="fullscreenBtn">⛶ <span data-i="fullscreen">Fullscreen</span></button>
+            <button class="icon-btn" id="screenshotBtn">📸 <span data-i="screenshot">Screenshot</span></button>
+        </div>
+
+        <div class="footer">◈ Kamal Noori · Diamond Edition · v3 ◈</div>
+    </div>
+
+    <script>
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           KAMAL NOORI v3 · DIAMOND LIQUID GLASS · ENGINE
+           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        const T = {
+            en: {
+                dir: 'ltr',
+                start: '▶ START TEST',
+                testing: '⏳ Testing...',
+                preparing: 'Preparing...',
+                ping_t: '⚡ Ping test...',
+                dl_t: '⬇ Downloading...',
+                ul_t: '⬆ Uploading...',
+                done: '✓ Complete',
+                restart: '▶ RESTART',
+                wifi_ip: '📡 WiFi IP:',
+                wifi_btn: '⚙️ WiFi',
+                download: '⬇ DOWNLOAD',
+                upload: '⬆ UPLOAD',
+                pub_ip: '🌐 PUBLIC IP',
+                location: '📍 LOCATION',
+                isp: '🏢 ISP',
+                ping: '⚡ PING (ms)',
+                connection: '📶 CONNECTION',
+                jitter: '〰️ JITTER (ms)',
+                settings: 'SETTINGS',
+                theme_lbl: '🎨 THEME',
+                light: 'Light',
+                dark: 'Dark',
+                splash_sub: '✦ NET ELITE · DIAMOND EDITION ✦',
+                share: 'Share',
+                fullscreen: 'Fullscreen',
+                screenshot: 'Screenshot',
+            },
+            fa: {
+                dir: 'rtl',
+                start: '▶ شروع تست',
+                testing: '⏳ در حال تست...',
+                preparing: 'آماده‌سازی...',
+                ping_t: '⚡ تست پینگ...',
+                dl_t: '⬇ دانلود...',
+                ul_t: '⬆ آپلود...',
+                done: '✓ تکمیل شد',
+                restart: '▶ شروع مجدد',
+                wifi_ip: '📡 آی‌پی وای‌فای:',
+                wifi_btn: '⚙️ وای‌فای',
+                download: '⬇ دانلود',
+                upload: '⬆ آپلود',
+                pub_ip: '🌐 آی‌پی عمومی',
+                location: '📍 موقعیت',
+                isp: '🏢 اینترنت',
+                ping: '⚡ پینگ (ms)',
+                connection: '📶 اتصال',
+                jitter: '〰️ جیتر (ms)',
+                settings: 'تنظیمات',
+                theme_lbl: '🎨 تم',
+                light: 'روشن',
+                dark: 'تاریک',
+                splash_sub: '✦ تست سرعت اینترنت ✦',
+                share: 'اشتراک',
+                fullscreen: 'تمام صفحه',
+                screenshot: 'اسکرین شات',
+            },
+            ps: {
+                dir: 'rtl',
+                start: '▶ تست پیل کړئ',
+                testing: '⏳ ازموینه کیږي...',
+                preparing: 'چمتو کول...',
+                ping_t: '⚡ د پینګ ازموینه...',
+                dl_t: '⬇ ډاونلوډ...',
+                ul_t: '⬆ اپلوډ...',
+                done: '✓ بشپړ شو',
+                restart: '▶ بیا پیل کړئ',
+                wifi_ip: '📡 د وای‌فای IP:',
+                wifi_btn: '⚙️ وای‌فای',
+                download: '⬇ ډاونلوډ',
+                upload: '⬆ اپلوډ',
+                pub_ip: '🌐 عمومي IP',
+                location: '📍 ځای',
+                isp: '🏢 انټرنټ',
+                ping: '⚡ پینګ (ms)',
+                connection: '📶 اتصال',
+                jitter: '〰️ جیټر (ms)',
+                settings: 'ترتیبات',
+                theme_lbl: '🎨 تم',
+                light: 'رڼا',
+                dark: 'تیاره',
+                splash_sub: '✦ د انټرنټ سرعت ازموینه ✦',
+                share: 'شریکول',
+                fullscreen: 'بشپړ صفحه',
+                screenshot: 'سکرین شاټ',
+            }
+        };
+
+        let lang = localStorage.getItem('kn_lang') || 'en';
+        let theme = localStorage.getItem('kn_theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        let busy = false;
+        let localIP = '...';
+        let totalDLBytes = 0;
+        let totalULBytes = 0;
+        let testStartTime = 0;
+
+        /*── Apply Language ──*/
+        function applyLang(l) {
+            lang = l;
+            localStorage.setItem('kn_lang', l);
+            const t = T[l];
+            document.documentElement.lang = l === 'en' ? 'en' : l === 'fa' ? 'fa' : 'ps';
+            document.documentElement.dir = t.dir;
+            document.querySelectorAll('[data-i]').forEach(el => {
+                const k = el.getAttribute('data-i');
+                if (t[k] !== undefined) el.textContent = t[k];
+            });
+            if (!busy) document.getElementById('startBtn').textContent = t.start;
+            const wi = document.getElementById('wfIp');
+            wi.innerHTML = `${t.wifi_ip} <span style="font-family:monospace">${localIP}</span>`;
+            const ss = document.getElementById('spSub');
+            if (ss) ss.textContent = t.splash_sub;
+            document.querySelectorAll('#langRow .s-btn').forEach(b => {
+                b.classList.toggle('on', b.dataset.lang === l);
+            });
+            updateClock();
+        }
+
+        /*── Apply Theme ──*/
+        function applyTheme(th) {
+            theme = th;
+            localStorage.setItem('kn_theme', th);
+            document.body.classList.toggle('lt', th === 'light');
+            document.querySelectorAll('#themeRow .s-btn').forEach(b => {
+                b.classList.toggle('on', b.dataset.theme === th);
+            });
+        }
+
+        /*── Clock ──*/
+        function updateClock() {
+            try {
+                const now = new Date();
+                const afg = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kabul' }));
+                let h = afg.getHours(), m = afg.getMinutes(), s = afg.getSeconds();
+                const ap = h >= 12 ? 'PM' : 'AM';
+                h = h % 12 || 12;
+                document.getElementById('sTime').textContent =
+                    `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')} ${ap}`;
+                const lc = lang === 'ps' ? 'ps-AF' : lang === 'fa' ? 'fa-IR' : 'en-US';
+                document.getElementById('sDate').textContent =
+                    afg.toLocaleDateString(lc, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) +
+                    ' · UTC+4:30';
+            } catch (e) {}
+        }
+        setInterval(updateClock, 1000);
+        applyTheme(theme);
+        applyLang(lang);
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           SPLASH — 10 SECONDS
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        (function() {
+            const pct = document.getElementById('spPct');
+            const total = 10000;
+            const step = 50;
+            let elapsed = 0;
+            const iv = setInterval(() => {
+                elapsed += step;
+                const p = Math.min(100, Math.round((elapsed / total) * 100));
+                if (pct) pct.textContent = p + '%';
+                if (elapsed >= total) {
+                    clearInterval(iv);
+                    hideSplash();
+                }
+            }, step);
+            function hideSplash() {
+                const sp = document.getElementById('splash');
+                if (sp) sp.classList.add('out');
+                updateClock();
+            }
+        })();
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           SETTINGS OVERLAY
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        const sov = document.getElementById('sov');
+        document.getElementById('gearBtn').addEventListener('click', () => { sov.classList.add('open'); updateClock(); });
+        document.getElementById('sClose').addEventListener('click', () => sov.classList.remove('open'));
+        sov.addEventListener('click', e => { if (e.target === sov) sov.classList.remove('open'); });
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') sov.classList.remove('open'); });
+        document.querySelectorAll('#langRow .s-btn').forEach(b => {
+            b.addEventListener('click', () => { applyLang(b.dataset.lang); sov.classList.remove('open'); });
+        });
+        document.querySelectorAll('#themeRow .s-btn').forEach(b => {
+            b.addEventListener('click', () => applyTheme(b.dataset.theme));
+        });
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           LOCAL IP
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        async function getLocalIP() {
+            return new Promise(res => {
+                const pc = new RTCPeerConnection({ iceServers: [] });
+                pc.createDataChannel('');
+                pc.createOffer().then(o => pc.setLocalDescription(o)).catch(() => {});
+                pc.onicecandidate = ice => {
+                    if (!ice || !ice.candidate) return;
+                    const m = /([0-9]{1,3}(\.[0-9]{1,3}){3})/.exec(ice.candidate.candidate);
+                    if (m) { res(m[1]); pc.close(); }
+                };
+                setTimeout(() => res('unavailable'), 2500);
+            });
+        }
+        (async () => {
+            localIP = await getLocalIP();
+            const t = T[lang];
+            document.getElementById('wfIp').innerHTML =
+                `${t.wifi_ip} <span style="font-family:monospace">${localIP}</span>`;
+        })();
+
+        document.getElementById('wfBtn').addEventListener('click', () => {
+            try { window.location.href = 'intent://settings/#Intent;scheme=android;package=com.android.settings;end'; } catch (e) {}
+            setTimeout(() => alert('Please open WiFi settings manually.'), 400);
+        });
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           PUBLIC IP + LOCATION
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        async function fetchIPAndLocation() {
+            try {
+                const r = await fetch('http://ip-api.com/json/?fields=status,message,country,regionName,city,zip,lat,lon,isp,org,as,query');
+                if (r.ok) {
+                    const d = await r.json();
+                    if (d.status === 'success') {
+                        document.getElementById('ipVal').textContent = d.query || '--';
+                        const loc = [d.city, d.regionName, d.country].filter(Boolean).join(', ');
+                        document.getElementById('geoVal').textContent = loc || '--';
+                        document.getElementById('ispVal').textContent = d.isp || d.org || '--';
+                        return;
+                    }
+                }
+            } catch (e) {}
+            try {
+                const r2 = await fetch('https://ipapi.co/json/');
+                if (r2.ok) {
+                    const d2 = await r2.json();
+                    if (d2.ip) {
+                        document.getElementById('ipVal').textContent = d2.ip;
+                        const loc2 = [d2.city, d2.region, d2.country_name].filter(Boolean).join(', ');
+                        document.getElementById('geoVal').textContent = loc2 || '--';
+                        document.getElementById('ispVal').textContent = d2.org || '--';
+                        return;
+                    }
+                }
+            } catch (e2) {}
+            try {
+                const r3 = await fetch('https://api.ipify.org?format=json');
+                if (r3.ok) { const d3 = await r3.json(); document.getElementById('ipVal').textContent = d3.ip; }
+            } catch (e3) {}
+            document.getElementById('geoVal').textContent = '--';
+            document.getElementById('ispVal').textContent = '--';
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           CONNECTION TYPE
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        function connType() {
+            if (navigator.connection) {
+                const c = navigator.connection;
+                const tp = c.type || '';
+                const et = c.effectiveType || '';
+                if (tp === 'wifi') return '📶 Wi-Fi';
+                if (tp === 'cellular' || et === '4g' || et === '3g' || et === '2g')
+                    return `📱 Mobile ${et.toUpperCase()||''}`;
+                if (et) return `🌐 ${et.toUpperCase()}`;
+            }
+            return '💻 Network';
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           PING + JITTER (multi-server)
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        async function measurePingJitter() {
+            const targets = ['https://1.1.1.1/cdn-cgi/trace', 'https://cloudflare.com/cdn-cgi/trace', 'https://google.com/generate_204'];
+            const times = [];
+            for (let i = 0; i < 8; i++) {
+                const u = targets[i % targets.length] + '?_=' + Date.now() + i;
+                const s = performance.now();
+                try { await fetch(u, { method: 'HEAD', mode: 'no-cors', cache: 'no-store' }); } catch (e) {}
+                times.push(performance.now() - s);
+                await sleep(30);
+            }
+            times.sort((a, b) => a - b);
+            const trimmed = times.slice(1, -1);
+            const avg = trimmed.reduce((a, b) => a + b, 0) / trimmed.length;
+            const jitter = Math.round(Math.max(...trimmed) - Math.min(...trimmed));
+            return { ping: Math.round(avg), jitter };
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           LIVE GRAPH HELPERS
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        const graphData = { dl: [], ul: [], maxPoints: 60 };
+        function drawGraph(ctx, data, color) {
+            const w = ctx.canvas.width = ctx.canvas.clientWidth;
+            const h = ctx.canvas.height = ctx.canvas.clientHeight;
+            ctx.clearRect(0, 0, w, h);
+            if (data.length < 2) return;
+            const maxVal = Math.max(...data, 10);
+            ctx.beginPath();
+            ctx.strokeStyle = color;
+            ctx.lineWidth = 2;
+            data.forEach((val, i) => {
+                const x = (i / (graphData.maxPoints - 1)) * w;
+                const y = h - (val / maxVal) * h;
+                if (i === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            });
+            ctx.stroke();
+            ctx.lineTo(w, h);
+            ctx.lineTo(0, h);
+            ctx.closePath();
+            const grad = ctx.createLinearGradient(0, 0, 0, h);
+            grad.addColorStop(0, color.replace('1)', '0.25)'));
+            grad.addColorStop(1, 'transparent');
+            ctx.fillStyle = grad;
+            ctx.fill();
+        }
+        function pushGraphData(type, value) {
+            const arr = graphData[type];
+            arr.push(value);
+            if (arr.length > graphData.maxPoints) arr.shift();
+            const canvas = document.getElementById(type === 'dl' ? 'dlGraph' : 'ulGraph');
+            const ctx = canvas.getContext('2d');
+            drawGraph(ctx, arr, type === 'dl' ? 'rgba(0,232,255,1)' : 'rgba(184,122,255,1)');
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           MULTI-THREAD DOWNLOAD & UPLOAD (Cloudflare)
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        async function speedTest(url, durationMs, onUpdate, type) {
+            const start = performance.now();
+            let totalBytes = 0;
+            let lastBytes = 0;
+            let lastTime = start;
+            const controller = new AbortController();
+            const workers = [];
+            const threadCount = 3;
+            for (let i = 0; i < threadCount; i++) {
+                workers.push((async () => {
+                    while (performance.now() - start < durationMs) {
+                        try {
+                            const res = await fetch(url + '?_=' + Math.random(), { cache: 'no-store', signal: controller.signal });
+                            const reader = res.body.getReader();
+                            while (true) {
+                                const { done, value } = await reader.read();
+                                if (done) break;
+                                totalBytes += value.byteLength;
+                                const now = performance.now();
+                                if (now - lastTime > 250) {
+                                    const elapsed = (now - start) / 1000;
+                                    const speed = (totalBytes * 8) / (elapsed * 1e6);
+                                    if (onUpdate) onUpdate(speed, elapsed, totalBytes);
+                                    pushGraphData(type, speed);
+                                    lastTime = now;
+                                }
+                            }
+                        } catch (e) { await sleep(200); }
+                    }
+                })());
+            }
+            await Promise.race([Promise.all(workers), sleep(durationMs)]);
+            controller.abort();
+            const finalElapsed = (performance.now() - start) / 1000;
+            const finalSpeed = (totalBytes * 8) / (finalElapsed * 1e6);
+            return { speed: finalSpeed, bytes: totalBytes, elapsed: finalElapsed };
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           HELPERS
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+        function animNum(el, target) {
+            const cur = parseFloat(el.textContent) || 0;
+            const diff = target - cur;
+            if (Math.abs(diff) < 0.04) { el.textContent = target.toFixed(1); return; }
+            el.textContent = (cur + diff * 0.30).toFixed(1);
+            requestAnimationFrame(() => animNum(el, target));
+        }
+
+        function setGauge(id, speed, maxSpeed) {
+            const el = document.getElementById(id);
+            if (!el) return;
+            const pct = Math.min(100, Math.round((speed / maxSpeed) * 100));
+            el.style.width = pct + '%';
+        }
+
+        function formatBytes(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+            if (bytes < 1073741824) return (bytes / 1048576).toFixed(2) + ' MB';
+            return (bytes / 1073741824).toFixed(2) + ' GB';
+        }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           MAIN SPEED TEST (Integrated with graphs & data)
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        async function startTest() {
+            if (busy) return;
+            busy = true;
+            vibrate(50);
+            totalDLBytes = 0;
+            totalULBytes = 0;
+            testStartTime = performance.now();
+            const t = T[lang];
+            const btn = document.getElementById('startBtn');
+            const dlN = document.getElementById('dlNum');
+            const ulN = document.getElementById('ulNum');
+            const dlS = document.getElementById('dlSt');
+            const ulS = document.getElementById('ulSt');
+            const dlC = document.getElementById('dlCard');
+            const ulC = document.getElementById('ulCard');
+
+            btn.disabled = true;
+            btn.textContent = t.testing;
+            dlN.textContent = '0.0';
+            ulN.textContent = '0.0';
+            dlS.textContent = t.preparing;
+            ulS.textContent = t.preparing;
+            document.getElementById('pingVal').textContent = '...';
+            document.getElementById('jitterVal').textContent = '...';
+            document.getElementById('connVal').textContent = connType();
+            document.getElementById('dataDL').textContent = '0 MB';
+            document.getElementById('dataUL').textContent = '0 MB';
+            document.getElementById('dataTime').textContent = '0s';
+            setGauge('dlGauge', 0, 200);
+            setGauge('ulGauge', 0, 200);
+            graphData.dl = [];
+            graphData.ul = [];
+            const dlCtx = document.getElementById('dlGraph').getContext('2d');
+            const ulCtx = document.getElementById('ulGraph').getContext('2d');
+            drawGraph(dlCtx, [], 'rgba(0,232,255,1)');
+            drawGraph(ulCtx, [], 'rgba(184,122,255,1)');
+
+            dlC.classList.add('act');
+            ulC.classList.add('act');
+
+            fetchIPAndLocation();
+
+            // Ping + Jitter
+            dlS.textContent = t.ping_t;
+            ulS.textContent = t.ping_t;
+            const { ping, jitter } = await measurePingJitter();
+            document.getElementById('pingVal').textContent = ping;
+            document.getElementById('jitterVal').textContent = jitter;
+            await sleep(300);
+
+            // Download (20s)
+            dlS.textContent = t.dl_t;
+            ulS.textContent = '⏸';
+            dlC.classList.add('act');
+            ulC.classList.remove('act');
+            document.getElementById('timerWrap').style.display = 'block';
+            document.getElementById('timerFill').style.width = '0%';
+            const dlRes = await speedTest('https://speed.cloudflare.com/__down?bytes=25000000', 20000,
+                (speed, elapsed, bytes) => {
+                    animNum(dlN, speed);
+                    setGauge('dlGauge', speed, 200);
+                    dlS.textContent = `${speed.toFixed(1)} Mbps · ${Math.round(elapsed)}s`;
+                    document.getElementById('dataDL').textContent = formatBytes(bytes);
+                    document.getElementById('dataTime').textContent = Math.round(elapsed) + 's';
+                    document.getElementById('timerFill').style.width = Math.min(100, (elapsed / 20) * 100) + '%';
+                }, 'dl');
+            document.getElementById('timerWrap').style.display = 'none';
+            dlC.classList.remove('act');
+            totalDLBytes = dlRes.bytes;
+            animNum(dlN, dlRes.speed);
+            setGauge('dlGauge', dlRes.speed, 200);
+            dlS.textContent = `✓ ${dlRes.speed.toFixed(1)} Mbps`;
+            document.getElementById('dataDL').textContent = formatBytes(dlRes.bytes);
+
+            // Upload (18s)
+            ulS.textContent = t.ul_t;
+            ulC.classList.add('act');
+            document.getElementById('timerWrap').style.display = 'block';
+            document.getElementById('timerFill').style.width = '0%';
+            const ulRes = await speedTest('https://speed.cloudflare.com/__up', 18000,
+                (speed, elapsed, bytes) => {
+                    animNum(ulN, speed);
+                    setGauge('ulGauge', speed, 200);
+                    ulS.textContent = `${speed.toFixed(1)} Mbps · ${Math.round(elapsed)}s`;
+                    document.getElementById('dataUL').textContent = formatBytes(bytes);
+                    document.getElementById('dataTime').textContent = Math.round(elapsed + 20) + 's';
+                    document.getElementById('timerFill').style.width = Math.min(100, (elapsed / 18) * 100) + '%';
+                }, 'ul');
+            document.getElementById('timerWrap').style.display = 'none';
+            ulC.classList.remove('act');
+            totalULBytes = ulRes.bytes;
+            animNum(ulN, ulRes.speed);
+            setGauge('ulGauge', ulRes.speed, 200);
+            ulS.textContent = `✓ ${ulRes.speed.toFixed(1)} Mbps`;
+            document.getElementById('dataUL').textContent = formatBytes(ulRes.bytes);
+
+            const totalElapsed = (performance.now() - testStartTime) / 1000;
+            document.getElementById('dataTime').textContent = Math.round(totalElapsed) + 's';
+            btn.textContent = t.restart;
+            btn.disabled = false;
+            busy = false;
+            vibrate([30, 50, 30]);
+        }
+
+        document.getElementById('startBtn').addEventListener('click', startTest);
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           ACTION BUTTONS (Share, Fullscreen, Screenshot)
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        document.getElementById('shareBtn').addEventListener('click', () => {
+            const dl = document.getElementById('dlNum').textContent;
+            const ul = document.getElementById('ulNum').textContent;
+            const ping = document.getElementById('pingVal').textContent;
+            const text = `⚡ Speed Test Result\n⬇ ${dl} Mbps | ⬆ ${ul} Mbps | Ping ${ping}ms\nby KAMAL NOORI NET ELITE v3`;
+            if (navigator.share) navigator.share({ title: 'Speed Test', text: text });
+            else { navigator.clipboard.writeText(text).then(() => alert('Result copied!')); }
+            vibrate(30);
+        });
+
+        document.getElementById('fullscreenBtn').addEventListener('click', () => {
+            if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+            else document.exitFullscreen();
+            vibrate(20);
+        });
+
+        document.getElementById('screenshotBtn').addEventListener('click', async () => {
+            alert('برای اسکرین شات از دکمه های خود گوشی استفاده کنید یا نتیجه کپی شد.');
+            document.getElementById('shareBtn').click();
+        });
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           MOUSE EFFECTS & TILT
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        const glow = document.getElementById('cursorGlow');
+        const trail = document.getElementById('cursorTrail');
+        document.addEventListener('mousemove', e => {
+            glow.style.left = e.clientX + 'px';
+            glow.style.top = e.clientY + 'px';
+            trail.style.left = e.clientX + 'px';
+            trail.style.top = e.clientY + 'px';
+        });
+
+        document.querySelectorAll('.spd-card').forEach(card => {
+            card.addEventListener('mousemove', e => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = (y - centerY) / 14;
+                const rotateY = (centerX - x) / 14;
+                card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-6px)`;
+            });
+            card.addEventListener('mouseleave', () => { card.style.transform = ''; });
+        });
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           PARTICLES ANIMATION
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        const pCanvas = document.getElementById('particles');
+        const pCtx = pCanvas.getContext('2d');
+        let particlesArr = [];
+        function resizeParticles() { pCanvas.width = window.innerWidth; pCanvas.height = window.innerHeight; }
+        resizeParticles(); window.addEventListener('resize', resizeParticles);
+        class Particle {
+            constructor() { this.reset(); }
+            reset() {
+                this.x = Math.random() * pCanvas.width;
+                this.y = Math.random() * pCanvas.height;
+                this.size = Math.random() * 2 + 0.5;
+                this.speedX = (Math.random() - 0.5) * 0.4;
+                this.speedY = (Math.random() - 0.5) * 0.4;
+                this.opacity = Math.random() * 0.5 + 0.1;
+            }
+            update() {
+                this.x += this.speedX; this.y += this.speedY;
+                if (this.x < 0 || this.x > pCanvas.width || this.y < 0 || this.y > pCanvas.height) this.reset();
+            }
+            draw() {
+                pCtx.beginPath(); pCtx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                pCtx.fillStyle = `rgba(255,255,255,${this.opacity})`; pCtx.fill();
+            }
+        }
+        for (let i = 0; i < 80; i++) particlesArr.push(new Particle());
+        function animateParticles() {
+            pCtx.clearRect(0, 0, pCanvas.width, pCanvas.height);
+            particlesArr.forEach(p => { p.update(); p.draw(); });
+            requestAnimationFrame(animateParticles);
+        }
+        animateParticles();
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           WAKE LOCK & VIBRATION
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        let wakeLock = null;
+        async function requestWakeLock() {
+            try { wakeLock = await navigator.wakeLock.request('screen'); } catch (e) {}
+        }
+        document.addEventListener('visibilitychange', () => {
+            if (wakeLock && document.visibilityState === 'visible') requestWakeLock();
+        });
+        requestWakeLock();
+        function vibrate(pattern) { if (navigator.vibrate) navigator.vibrate(pattern); }
+
+        /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+           INIT
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+        window.addEventListener('load', () => {
+            fetchIPAndLocation();
+            document.getElementById('connVal').textContent = connType();
+        });
+        if (navigator.connection) {
+            navigator.connection.addEventListener('change', () => {
+                document.getElementById('connVal').textContent = connType();
+            });
+        }
+        updateClock();
+        console.log('%c◈ KAMAL NOORI v3 · Diamond Liquid Glass · Ultra Premium %c💎',
+            'font-size:15px;color:#f0c030;font-weight:bold;', 'font-size:20px;');
+        console.log('%c✨ Crafted with precision · NET ELITE ✨', 'font-size:11px;color:#00e8ff;');
+    </script>
+</body>
+</html>
